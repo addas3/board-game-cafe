@@ -7,6 +7,19 @@
 }
 
 body {
-    font-family: Henny penny, sans-serif;
+    font-family: Architects Daughter, sans-serif;
     font-weight: 300;
+    color: #000000;
+}
+
+/* headings and logo */
+
+h1,h2 {
+    font-family: Henny penny, sans-serif;
+    color: #800080;
+}
+
+#logo {
+    float: left;
+    font-size: 300%;
 }
