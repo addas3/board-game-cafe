@@ -67,3 +67,11 @@ h1,h2 {
     padding: 15px;
     background-color: #b14cb1;
 }
+
+/* home page */
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url('../image/hero-image.jpg') no-repeat center center;
+}
