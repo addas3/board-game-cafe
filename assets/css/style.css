@@ -31,8 +31,22 @@ h1,h2 {
     letter-spacing: 2px;
 }
 
+#menu, #logo {
+    line-height: 120px;
+
+}
+
 #menu li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    
 }
