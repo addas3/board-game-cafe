@@ -70,8 +70,18 @@ h1,h2 {
 
 /* home page */
 
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url('../image/hero-image.jpg') no-repeat center center;
+    background: url('../image/hero-image.jpg');
+    background-position: center 40%;
+    background-repeat: no-repeat;
+    background-size: cover
+    
 }
