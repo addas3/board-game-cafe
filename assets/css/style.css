@@ -92,7 +92,7 @@ h1,h2 {
     
 }
 
-/* creates the level of zomm for hero image */
+/* creates the level of zoom for hero image */
 @keyframes hero-zoom {
     from {
         transform: scale(1);
@@ -110,9 +110,34 @@ h1,h2 {
 }
 
 #left-about {
-    padding-top: 30px;
+    padding-top: 200px;
     width: 33%;
     float: left;
+    font-size: 150%;
+    padding-left: 30px;
+
+
+    background-color: rgba(152, 93, 171, 0.47);
+    position: relative;
+    
+}
+
+#left-image {
+    width: 500px;
+    height: 500px;
+    background: url('../image/left-image.jpg');
+    background-position: center 10%;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    padding: 50px;
+    
+    position:relative;
+    left:700px;
+    top: 200px;
+    border: 1px;
+
+    
+    
 }
 
 #right-history {
