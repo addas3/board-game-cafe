@@ -117,6 +117,7 @@ h1,h2 {
     padding-left: 30px;
     
     
+    
     background-color: rgba(152, 93, 171, 0.47);
     position: relative;
     left:10px;
@@ -180,6 +181,8 @@ h1,h2 {
 
 footer {
     height: 300px;
+
+  
 }
 
 .social-networks {
@@ -197,3 +200,78 @@ footer {
     padding: 5%;
     color: #b14cb1;
 }
+
+
+/* what we offer page */
+
+#offer-h1 {
+    clear: both;
+    text-align: center;
+    padding-top: 100px;
+}
+
+#left-board-games {
+    padding-top: 10px;
+    width: 33%;
+    float: left;
+    font-size: 150%;
+    padding-left: 30px;
+    line-height: 1.8;
+    
+    
+    background-color: rgba(152, 93, 171, 0.47);
+    position: relative;
+    left:10px;
+    top: 200px;
+    border: 1px;
+
+}
+
+#board-games-image {
+    width: 500px;
+    height: 500px;
+    background: url('../image/left-image.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    padding: 20px;
+    
+    position:relative;
+    left:680px;
+    top: 1px;
+    border: 1px;
+}
+
+
+#right-food {
+    padding-top: 10px;
+    width: 33%;
+    float: right;
+    font-size: 150%;
+    padding-left: 30px;
+
+
+    background-color: rgba(152, 93, 171, 0.47);
+    position: relative;
+    right:10px;
+    top: 200px;
+    border: 1px;
+
+}
+
+#right-food-image {
+    width: 500px;
+    height: 500px;
+    background: url('../image/right-image.jpg');
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover; 
+    padding: 20px;
+    
+    position:relative;
+    left:680px;
+    top: 200px;
+    border: 1px;
+}
+
+
