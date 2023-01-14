@@ -82,6 +82,22 @@ h1,h2 {
     background: url('../image/hero-image.jpg');
     background-position: center 40%;
     background-repeat: no-repeat;
-    background-size: cover
+    background-size: cover;
+
+    /* animates zoom effect on loading page */
+    animation-name:  hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode:forwards;
+
     
+}
+
+/* creates the level of zomm for hero image */
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
 }
