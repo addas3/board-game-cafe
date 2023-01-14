@@ -101,3 +101,22 @@ h1,h2 {
         transform: scale(1.1);
     }
 }
+
+
+/* general information */
+
+#general-information {
+    height: 600px;
+}
+
+#left-about {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+#right-history {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
