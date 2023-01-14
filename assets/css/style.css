@@ -175,3 +175,25 @@ h1,h2 {
 
     
 }
+
+/* footer */
+
+footer {
+    height: 300px;
+}
+
+.social-networks {
+    text-align: center;
+    padding-top: 200px;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #b14cb1;
+}
