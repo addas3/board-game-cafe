@@ -179,11 +179,7 @@ h1,h2 {
 
 /* footer */
 
-footer {
-    height: 300px;
 
-  
-}
 
 .social-networks {
     text-align: center;
@@ -324,7 +320,7 @@ img {
 }
 
 
-/* Form */
+/* contact us and form */
 
 .form-section {
     clear: left;
