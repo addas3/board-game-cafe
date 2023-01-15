@@ -204,43 +204,46 @@ footer {
 
 /* what we offer page */
 
+#h1-outer {
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+}
+
 #offer-h1 {
     clear: both;
     text-align: center;
     padding-top: 100px;
 }
 
-#left-board-games {
-    padding-top: 10px;
-    width: 33%;
-    float: left;
-    font-size: 150%;
-    padding-left: 30px;
-    line-height: 1.8;
-    
-    
-    background-color: rgba(152, 93, 171, 0.47);
-    position: relative;
-    left:10px;
-    top: 200px;
-    border: 1px;
 
+.board-games {
+    display: flex;
+    margin: right;
+       
 }
 
-#board-games-image {
+img {
+    max-width: 100%;
+    position: relative;
+    left: 600px;
     width: 500px;
     height: 500px;
-    background: url('../image/left-image.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; 
-    padding: 20px;
     
-    position:relative;
-    left:680px;
-    top: 1px;
-    border: 1px;
 }
+
+
+
+.text-board {
+    position: relative;
+    right: 700px;
+    width: 33%;
+    font-size: 150%;
+    
+    
+    
+}
+
 
 
 #right-food {
