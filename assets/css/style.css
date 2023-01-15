@@ -214,7 +214,13 @@ footer {
     clear: both;
     text-align: center;
     padding-top: 100px;
+    font-size: 200%;
+    
 }
+
+
+
+
 
 
 .board-games {
@@ -226,9 +232,11 @@ footer {
 img {
     max-width: 100%;
     position: relative;
-    left: 600px;
+    left: 700px;
     width: 500px;
     height: 500px;
+    object-fit: cover;
+    object-position: center 40%;
     
 }
 
@@ -236,45 +244,154 @@ img {
 
 .text-board {
     position: relative;
-    right: 700px;
+    right: 450px;
     width: 33%;
+    height:fit-content;
     font-size: 150%;
-    
-    
+    padding-left: 30px;
+    margin-left: -30px;
+
+    background-color: rgba(152, 93, 171, 0.47);
     
 }
 
 
 
-#right-food {
-    padding-top: 10px;
+
+.food {
+    display: flex;
+    margin: right;
+       
+}
+
+img {
+    max-width: 100%;
+    position: relative;
+    right: 700px;
+    width: 500px;
+    height: 500px;
+    
+}
+
+
+
+.text-food {
+    position: relative;
+    left: 720px;
     width: 33%;
-    float: right;
+    height:fit-content;
     font-size: 150%;
     padding-left: 30px;
 
-
     background-color: rgba(152, 93, 171, 0.47);
-    position: relative;
-    right:10px;
-    top: 200px;
-    border: 1px;
+    
 
+    
+
+    
 }
 
-#right-food-image {
+.drinks {
+    display: flex;
+    margin: right;
+       
+}
+
+img {
+    max-width: 100%;
+    position: relative;
+    left: 700px;
     width: 500px;
     height: 500px;
-    background: url('../image/right-image.jpg');
-    background-position:center;
-    background-repeat: no-repeat;
-    background-size:cover; 
-    padding: 20px;
+    object-fit: cover;
+    object-position: center 40%;
     
-    position:relative;
-    left:680px;
-    top: 200px;
-    border: 1px;
 }
 
 
+
+.text-drinks {
+    position: relative;
+    right: 450px;
+    width: 33%;
+    height:fit-content;
+    font-size: 150%;
+    padding-left: 30px;
+    margin-left: -30px;
+
+    background-color: rgba(152, 93, 171, 0.47);
+    
+}
+
+
+/* Form */
+
+.form-section {
+    clear: left;
+    background: url("/assets/image/stockholm.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+.signup-form {
+    margin: 150px 10% 0 0;
+    color: #000000;
+    font-weight: bold;
+    background-color: rgba(152, 93, 171, 0.47);
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+}
+
+.signup-form h2 {
+    color: #fafafa;
+    margin-bottom:20px;
+    letter-spacing: 2px;
+}
+
+.text-input {
+    background:transparent;
+    color:#fafafa;
+    width:100%;
+    height:25px;
+    margin:5px 0 20px 0;
+    border:1px solid #fafafa;
+    border-radius:2px;
+}
+
+.text-input:hover {
+    border-color: #f16c6b;
+}
+
+.join-button {
+    margin-top:20px;
+    border-radius:2px;
+    padding:15px 32px 15px 32px;
+    text-align:center;
+    font-size:100%;
+    background-color: #b14cb1;
+    color: #fafafa;
+    display:block;
+}
+
+.join-button:hover {
+    background-color: #8ce081;
+    color: #000000;
+    font-weight: bold;
+}
+
+
+.h2-contact {
+    margin-top: 30px;
+    letter-spacing: 2px;
+
+}
+
+
+
+.contact-us {
+    font-size: 120%;
+    line-height: 70px;
+}
