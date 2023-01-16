@@ -392,6 +392,7 @@ img {
 
 /* Media queries */
 
+
 /* For larger to medium screens size from 1670px wide and down */
 @media screen and (max-width: 1670px) {
     .general-information {
@@ -417,6 +418,24 @@ img {
         
     }
 
+
+
+
+
+    .text-board, .text-food, .text-drinks {
+        position: relative;
+        left: -400px;
+        
+    }
+
+    .img-board, .img-food, .img-drinks {
+        position: relative;
+        left: -200px;
+        
+
+    }
+
+    
 }
 
 
@@ -429,5 +448,16 @@ img {
         margin-bottom: 20px;
         line-height: 25px;
     }
-    
+
+    /*contact us */
+
+    .contact-us {
+        color: #f16c6b;
+    }
+
 }
+
+
+
+
+
