@@ -432,6 +432,7 @@ img {
         position: relative;
         left: -200px;
         
+        
 
     }
 
@@ -449,11 +450,18 @@ img {
         line-height: 25px;
     }
 
+
+    .image-left, .image-right {
+        position: relative;
+        left: 100px;
+        top: 50;
+    }
+    
+    
+
     /*contact us */
 
-    .contact-us {
-        color: #f16c6b;
-    }
+    
 
 }
 
