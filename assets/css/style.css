@@ -392,8 +392,8 @@ img {
 
 /* Media queries */
 
-/* For larger to medium screens size from 1200px wide and down */
-@media screen and (max-width: 1400px) {
+/* For larger to medium screens size from 1670px wide and down */
+@media screen and (max-width: 1670px) {
     .general-information {
         width: 65%;
         height: 1200px;
@@ -409,13 +409,25 @@ img {
     .left-image, .right-image {
         position: relative;
         top: 600px;
-        left: 50px;
-        
-        
+        left: 50px; 
     }
 
     #menu {
         font-size: 80%;
         
     }
+
+}
+
+
+/* For medium screens size from 950px wide and down */
+@media screen and (max-width: 385px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+    
 }
