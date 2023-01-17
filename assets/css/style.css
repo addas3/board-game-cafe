@@ -109,16 +109,18 @@ h2 {
 /* general information */
 
 /* .general-information {
-    height: 600px;
+    width: 100%;
+    height: auto;
 } */
 
-.left-image {
+.general-information {
     display: flex;
-    flex-direction: row;
-    flex-flow: wrap;
     width: 100%;
-    height: auto;  
+    height: auto;
+    float: left;
+
 }
+   
 
 
 
@@ -409,11 +411,11 @@ img {
 
 /* For larger to medium screens size from 1670px wide and down */
 @media screen and (max-width: 1670px) {
-    .general-information {
+    /* .general-information {
         width: 65%;
         height: 1200px;
         margin: 0 auto;
-    }
+    } */
 
     .left-about, .right-history {
         width: 100%;
