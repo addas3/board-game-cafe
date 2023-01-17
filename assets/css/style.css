@@ -108,19 +108,78 @@ h2 {
 
 /* general information */
 
-/* .general-information {
-    width: 100%;
-    height: auto;
-} */
+
 
 .general-information {
     display: flex;
     width: 100%;
-    height: auto;
-    float: left;
+    flex-direction: row;
+    padding-top: 50px;
 
+    border: 5px solid #8ce081;
+  
 }
+
+.left-about {
+
+    background-color: rgba(152, 93, 171, 0.47);
+    height: auto;
+    width: 100%;
+    max-width: 300px;
+    padding: 20px;
+
+    border: 5px solid #8ce081;
    
+}
+
+.left-image {
+    width: 100%;
+    height: auto;
+}
+
+.left-image img {
+    width: 50% ;
+    height: auto;
+    padding: 10px;
+    
+    border: 5px solid #8ce081;
+    
+}
+
+
+
+
+
+
+
+.right-history {
+
+    background-color: rgba(152, 93, 171, 0.47);
+    height: auto;
+    width: 100%;
+    max-width: 300px;
+    padding: 20px;
+
+    border: 5px solid #8ce081;
+   
+}
+
+
+.right-image {
+    width: 100%;
+    height: auto;
+}
+
+.right-image img {
+    width: 50% ;
+    height: auto;
+    padding: 10px;
+    
+    border: 5px solid #8ce081;
+    
+}
+
+
 
 
 
@@ -163,7 +222,7 @@ h2 {
 
 } */
 
-.right-history {
+/* .right-history {
     padding-top: 10px;
     width: 33%;
     float: right;
@@ -194,7 +253,7 @@ h2 {
 
 
 
-}
+} */
 
 /* footer */
 
@@ -241,7 +300,7 @@ h2 {
 
 }
 
-img {
+.board-games img {
     max-width: 100%;
     position: relative;
     left: 700px;
@@ -276,7 +335,7 @@ img {
 
 }
 
-img {
+.food img {
     max-width: 100%;
     position: relative;
     right: 700px;
@@ -305,7 +364,7 @@ img {
 
 }
 
-img {
+.drinks img {
     max-width: 100%;
     position: relative;
     left: 700px;
@@ -410,19 +469,21 @@ img {
 
 
 /* For larger to medium screens size from 1670px wide and down */
-@media screen and (max-width: 1670px) {
+
+
+/* @media screen and (max-width: 1670px) {
     /* .general-information {
         width: 65%;
         height: 1200px;
         margin: 0 auto;
     } */
 
-    .left-about, .right-history {
+    /* .left-about, .right-history {
         width: 100%;
         float: left;
         padding: 0;
-    }
-
+    } */
+/* 
     .left-image, .right-image {
         position: relative;
         top: 600px;
@@ -432,13 +493,13 @@ img {
     #menu {
         font-size: 80%;
         
-    }
+    } */
 
 
 
 
 
-    .text-board, .text-food, .text-drinks {
+    /* .text-board, .text-food, .text-drinks {
         position: relative;
         left: -400px;
         
@@ -450,14 +511,16 @@ img {
         
         
 
-    }
+    } */
 
     
-}
+
 
 
 /* For medium screens size from 950px wide and down */
-@media screen and (max-width: 385px) {
+
+
+/* @media screen and (max-width: 385px) {
     #menu {
         clear: left;
         float: left;
@@ -479,9 +542,9 @@ img {
 
     
 
-}
+/* } */
 
 
 
 
-
+ 
