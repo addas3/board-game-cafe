@@ -108,11 +108,25 @@ h2 {
 
 /* general information */
 
-.general-information {
+/* .general-information {
     height: 600px;
+} */
+
+.left-image {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    width: 100%;
+    height: auto;  
 }
 
-.left-about {
+
+
+
+
+
+
+/* .left-about {
     padding-top: 10px;
     width: 33%;
     float: left;
@@ -145,7 +159,7 @@ h2 {
 
 
 
-}
+} */
 
 .right-history {
     padding-top: 10px;
