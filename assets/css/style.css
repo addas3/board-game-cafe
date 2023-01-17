@@ -312,104 +312,6 @@ h2 {
 }
 
 
-
-/* .board-games {
-    display: flex;
-    margin: right;
-
-}
-
-.board-games img {
-    max-width: 100%;
-    position: relative;
-    left: 700px;
-    width: 500px;
-    height: 500px;
-    object-fit: cover;
-    object-position: center 40%;
-
-}
-
-
-
-.text-board {
-    position: relative;
-    right: 450px;
-    width: 33%;
-    height: fit-content;
-    font-size: 150%;
-    padding-left: 30px;
-    margin-left: -30px;
-
-    background-color: rgba(152, 93, 171, 0.47);
-
-}
-
-
-
-
-.food {
-    display: flex;
-    margin: right;
-
-}
-
-.food img {
-    max-width: 100%;
-    position: relative;
-    right: 700px;
-    width: 500px;
-    height: 500px;
-
-}
-
-
-
-.text-food {
-    position: relative;
-    left: 720px;
-    width: 33%;
-    height: fit-content;
-    font-size: 150%;
-    padding-left: 30px;
-
-    background-color: rgba(152, 93, 171, 0.47);
-
-}
-
-.drinks {
-    display: flex;
-    margin: right;
-
-}
-
-.drinks img {
-    max-width: 100%;
-    position: relative;
-    left: 700px;
-    width: 500px;
-    height: 500px;
-    object-fit: cover;
-    object-position: center 40%;
-
-}
-
-
-
-.text-drinks {
-    position: relative;
-    right: 450px;
-    width: 33%;
-    height: fit-content;
-    font-size: 150%;
-    padding-left: 30px;
-    margin-left: -30px;
-
-    background-color: rgba(152, 93, 171, 0.47);
-
-} */
-
-
 /* contact us and form */
 
 .form-section {
@@ -417,7 +319,7 @@ h2 {
     background: url("/assets/image/stockholm.jpg");
     background-size: cover;
     background-position: center;
-    height: 900px;
+    height: 1000px;
 }
 
 .signup-form {
@@ -490,35 +392,45 @@ h2 {
 /* For larger to medium screens size from 1670px wide and down */
 
 
-/* @media screen and (max-width: 1670px) {
+@media screen and (max-width: 1670px) {
+     
+    
+    
+    
+    
+    
+    
+    
     /* .general-information {
         width: 65%;
         height: 1200px;
         margin: 0 auto;
-    } */
+    } 
 
-    /* .left-about, .right-history {
+     .left-about, .right-history {
         width: 100%;
         float: left;
         padding: 0;
-    } */
-/* 
+    }
+
     .left-image, .right-image {
         position: relative;
         top: 600px;
         left: 50px; 
-    }
+    } */
 
     #menu {
         font-size: 80%;
         
-    } */
+    }
+
+}
 
 
 
 
 
-    /* .text-board, .text-food, .text-drinks {
+    .text-board, .text-food, .text-drinks {
         position: relative;
         left: -400px;
         
@@ -530,7 +442,7 @@ h2 {
         
         
 
-    } */
+    }
 
     
 
@@ -539,7 +451,7 @@ h2 {
 /* For medium screens size from 950px wide and down */
 
 
-/* @media screen and (max-width: 385px) {
+ @media screen and (max-width: 385px) {
     #menu {
         clear: left;
         float: left;
@@ -549,11 +461,24 @@ h2 {
     }
 
 
+    .general-information {
+        display: flex;
+        width: 20%;
+        flex-direction: column;
+        
+    
+        border: 5px solid #8ce081;
+      
+    }
+
+/* 
     .image-left, .image-right {
         position: relative;
         left: 100px;
         top: 50;
-    }
+    } */
+
+}
     
     
 
@@ -561,7 +486,7 @@ h2 {
 
     
 
-/* } */
+ 
 
 
 
