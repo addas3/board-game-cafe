@@ -182,79 +182,6 @@ h2 {
 
 
 
-
-
-
-
-
-/* .left-about {
-    padding-top: 10px;
-    width: 33%;
-    float: left;
-    font-size: 150%;
-    padding-left: 30px;
-
-
-
-    background-color: rgba(152, 93, 171, 0.47);
-    position: relative;
-    left: 10px;
-    top: 200px;
-    border: 1px;
-
-}
-
-.left-image {
-    width: 500px;
-    height: 500px;
-    background-image: url('../image/left-image.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 20px;
-
-    position: relative;
-    left: 680px;
-    top: 200px;
-    border: 1px;
-
-
-
-} */
-
-/* .right-history {
-    padding-top: 10px;
-    width: 33%;
-    float: right;
-    font-size: 150%;
-    padding-left: 30px;
-
-
-    background-color: rgba(152, 93, 171, 0.47);
-    position: relative;
-    right: 10px;
-    top: 200px;
-    border: 1px;
-}
-
-.right-image {
-    width: 500px;
-    height: 500px;
-    background-image: url('../image/right-image.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 20px;
-
-    position: relative;
-    left: 680px;
-    top: 200px;
-    border: 1px;
-
-
-
-} */
-
 /* footer */
 
 
@@ -294,7 +221,99 @@ h2 {
 
 
 
-.board-games {
+
+.we-offer {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    padding-top: 50px;
+
+    border: 5px solid #8ce081;
+  
+}
+
+.text-board {
+
+    background-color: rgba(152, 93, 171, 0.47);
+    height: auto;
+    width: 100%;
+    max-width: 300px;
+    padding: 20px;
+
+    border: 5px solid #8ce081;
+   
+}
+
+.board-image {
+    width: 50%;
+    height: auto;
+}
+
+.board-image img {
+    width: 50% ;
+    height: auto;
+    padding: 10px;
+    
+    border: 5px solid #8ce081;
+    
+}
+
+
+.text-food {
+
+    background-color: rgba(152, 93, 171, 0.47);
+    height: auto;
+    width: 100%;
+    max-width: 300px;
+    padding: 20px;
+
+    border: 5px solid #8ce081;
+   
+}
+
+.food-image {
+    width: 50%;
+    height: auto;
+}
+
+.food-image img {
+    width: 50% ;
+    height: auto;
+    padding: 10px;
+    
+    border: 5px solid #8ce081;
+    
+}
+
+.text-drinks {
+
+    background-color: rgba(152, 93, 171, 0.47);
+    height: auto;
+    width: 100%;
+    max-width: 300px;
+    padding: 20px;
+
+    border: 5px solid #8ce081;
+   
+}
+
+.drinks-image {
+    width: 100%;
+    height: auto;
+}
+
+.drinks-image img {
+    width: 50% ;
+    height: auto;
+    padding: 10px;
+    
+    border: 5px solid #8ce081;
+    
+}
+
+
+
+/* .board-games {
     display: flex;
     margin: right;
 
@@ -388,7 +407,7 @@ h2 {
 
     background-color: rgba(152, 93, 171, 0.47);
 
-}
+} */
 
 
 /* contact us and form */
