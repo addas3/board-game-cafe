@@ -53,3 +53,15 @@ Board Game Cafe is place where people can gather and enjoy their times with man 
     * Drinks are very important so having it in the page help to convince the user to select the cafe.
 
 ![Gallery]()
+
+### Existing Features
+
+* Responsive design
+* Contact us form and thank you page
+
+
+### Features Left to Implement
+
+* Building live booking so the user can book the table directly.
+
+* Implementing in contact us google map location.

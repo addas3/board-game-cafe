@@ -204,7 +204,7 @@ h2 {
     overflow: hidden;
 }
 
-.offer-h1 {
+.offer {
     clear: both;
     text-align: center;
     padding-top: 100px;
@@ -431,7 +431,7 @@ h2 {
         font-size: 60%;
     }
 
-    .offer-h1 {
+    .offer {
         
         padding-top: 30px;
         
