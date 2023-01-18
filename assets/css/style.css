@@ -296,7 +296,7 @@ h2 {
     background: url("/assets/image/stockholm.jpg");
     background-size: cover;
     background-position: center;
-    height: 1400px;
+    height: 900px;
 }
 
 .signup-form {
@@ -415,6 +415,10 @@ h2 {
         flex-direction: column;
         
       
+    }
+
+    .signup-form {
+        font-size: 60%;
     }
 
 
