@@ -296,7 +296,7 @@ h2 {
 
 .form-section {
     clear: left;
-    background: url("/assets/image/stockholm.jpg");
+    background: url("assets/image/stockholm.jpg");
     background-size: cover;
     background-position: center;
     height: 900px;
