@@ -72,6 +72,7 @@ h2 {
 
 /* home page */
 
+
 .hero-outer {
     height: 600px;
     width: 100%;
@@ -361,6 +362,13 @@ h2 {
     line-height: 70px;
     letter-spacing: 2px;
 }
+
+.text-center {
+    text-align: center;
+    font-size: 140%;
+}
+
+
 
 
 /* Media queries */
