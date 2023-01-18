@@ -233,16 +233,14 @@ h2 {
 }
 
 .board-image {
-    width: 50%;
+    width: 100%;
     height: auto;
 }
 
 .board-image img {
-    width: 50% ;
+    width: 90% ;
     height: auto;
     padding: 10px;
-    
-    border: 5px solid #8ce081;
     
 }
 
@@ -252,24 +250,19 @@ h2 {
     background-color: rgba(152, 93, 171, 0.47);
     height: auto;
     width: 100%;
-    max-width: 300px;
     padding: 20px;
-
-    border: 5px solid #8ce081;
    
 }
 
 .food-image {
-    width: 50%;
+    width: 100%;
     height: auto;
 }
 
 .food-image img {
-    width: 50% ;
+    width: 90% ;
     height: auto;
     padding: 10px;
-    
-    border: 5px solid #8ce081;
     
 }
 
@@ -278,10 +271,7 @@ h2 {
     background-color: rgba(152, 93, 171, 0.47);
     height: auto;
     width: 100%;
-    max-width: 300px;
     padding: 20px;
-
-    border: 5px solid #8ce081;
    
 }
 
@@ -291,11 +281,10 @@ h2 {
 }
 
 .drinks-image img {
-    width: 50% ;
+    width: 90% ;
     height: auto;
     padding: 10px;
     
-    border: 5px solid #8ce081;
     
 }
 
@@ -382,80 +371,31 @@ h2 {
 
 @media screen and (max-width: 1670px) {
      
-    
-    
-    
-    
-    
-    
-    
-    /* .general-information {
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
-    } 
-
-     .left-about, .right-history {
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
-    .left-image, .right-image {
-        position: relative;
-        top: 600px;
-        left: 50px; 
-    } */
-
     #menu {
-        font-size: 80%;
+        font-size: 70%;
+        font-weight: bolder;
         
     }
 
-    .we-offer {
-        display: flex;
-        width: 100%;
-        flex-direction: column;
-        
-    
-        /* border: 5px solid #8ce081; */
-      
-    }
 
 }
 
 
 
-
-
-    /* .text-board, .text-food, .text-drinks {
-        position: relative;
-        left: -400px;
-        
-    }
-
-    .img-board, .img-food, .img-drinks {
-        position: relative;
-        left: -200px;
-        
-        
-
-    } */
-
     
-
-
 
 /* For medium screens size from 950px wide and down */
 
 
- @media screen and (max-width: 630px) {
+ @media screen and (max-width: 750px) {
     #menu {
         clear: left;
         float: left;
-        /* margin-left: 30px; */
+        margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
+        
+        
     }
 
 
@@ -465,22 +405,24 @@ h2 {
         flex-direction: column;
         
     
-        /* border: 5px solid #8ce081; */
+        
       
     }
 
-/* 
-    .image-left, .image-right {
-        position: relative;
-        left: 100px;
-        top: 50;
-    } */
+    .we-offer {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        
+      
+    }
+
 
 }
     
     
 
-    /*contact us */
+    
 
     
 
