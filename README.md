@@ -249,3 +249,77 @@ Testing was performed on the Font Awesome Social Media icons in the footer to en
 
 Each item opened a new tab when clicked as expected.
 
+### Validator Testing 
+
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org) only few warnings was found in what we offer page and index will fix them in the next release
+
+![Contact HTML Validator Results](docs/testing/index_validator.jpg)
+
+![Avdentures HTML Validator Results](docs/testing/we_offer_validator.jpg)
+
+![Home HTML Validator Results](docs/testing/contact_us_validator.jpg)
+
+
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org)
+
+![CSS Validator Results](docs/testing/css_validator.jpg)
+
+### Bugs
+
+  - The logo was on the top while the navigation links was not so I fixed that by changing the line-height from 75px till 120px.
+  - Noticed the logo os to much to the left so I added it padding to left with 20px 
+  - The location icon in the footer was not working so i changed it
+  
+
+## Deployment
+
+### Version Control
+
+The site was created using the Visual Studio code editor and pushed to github to the remote repository ‘tacos-travels’.
+
+The following git commands were used throughout development to push code to the remote repo:
+
+```git add <file>``` - This command was used to add the file(s) to the staging area before they are committed.
+
+```git commit -m “commit message”``` - This command was used to commit changes to the local repository queue ready for the final step.
+
+```git push``` - This command was used to push all committed code to the remote repository on github.
+
+### Deployment to Github Pages
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the menu on left select 'Pages'
+  - From the source section drop-down menu, select the Branch: main
+  - Click 'Save'
+  - A live link will be displayed in a green banner when published successfully. 
+
+The live link can be found here - https://addas3.github.io/board-game-cafe/what-we-offer.html 
+
+### Clone the Repository Code Locally
+
+Navigate to the GitHub Repository you want to clone to use locally:
+
+- Click on the code drop down button
+- Click on HTTPS
+- Copy the repository link to the clipboard
+- Open your IDE of choice (git must be installed for the next steps)
+- Type git clone copied-git-url into the IDE terminal
+
+The project will now of been cloned on your local machine for use.
+
+## Credits 
+
+* [Styling Navigation border](https://developer.mozilla.org/en-US/docs/Web/CSS/border-style)
+    * I got code help from about website to do the border style for navigation links
+
+* [All Images](https://www.freepik.com/)
+    * All images were taken from above website. 
+
+* [Allining image and text](https://www.youtube.com/watch?v=QlHyLKAKceM)
+    * Watched the video and got better understanding on how to use the flex code.
+
+
+
