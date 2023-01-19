@@ -1,6 +1,6 @@
 # Board Game Cafe
 
-Board Game Cafe is place where people can gather and enjoy their times with man games provided. The website helps people to get to know more about the place and the history of the place. In addition, the website aim to show the variety  of the that the place offer. View the live site [here](https://addas3.github.io/board-game-cafe/index.html)
+Board Game Cafe is place where people can gather and enjoy their times with many games provided. The website helps people to get to know more about the place and the history of the place. In addition, the website aim to show the variety  of what the user can do from Board games, food, and drinks in the cafe. View the live site [here](https://addas3.github.io/board-game-cafe/index.html)
 
 ![Mockup](docs/readme_images/mockup.jpg)
 
